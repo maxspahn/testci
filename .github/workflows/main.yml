@@ -27,4 +27,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run tests
-        run: pytest tests/* --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
+        run: pytest tests/* --doctest-modules --junitxml=junit/test-results.xml --cov=simpleOperators --cov-report=xml --cov-report=html
